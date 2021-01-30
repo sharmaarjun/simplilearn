@@ -1,0 +1,27 @@
+package Array;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class list {
+	String message = "this is new";
+	
+	public static void main(String[] args) {
+	
+	ArrayList<String> en = new ArrayList<String>();
+	en.add("Bread");
+	en.add("Milk");
+	System.out.println("->"+en);
+	Iterator<String> itr = en.iterator();
+	while(itr.hasNext()) {
+		System.out.println("->>>> ::"+itr.next());
+	}
+	}
+
+list(String text){
+	this.message = text;
+	System.out.println(text);
+}
+	
+
+}
