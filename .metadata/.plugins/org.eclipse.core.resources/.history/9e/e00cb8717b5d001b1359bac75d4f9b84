@@ -1,0 +1,30 @@
+package exceptionhandling;
+
+import java.util.Scanner;
+
+public class Accountfunctions {
+	
+	public static void main(String[] args) {
+		
+	//create an account object
+	Account account = new Account(16001, 25000, "John");
+	//Scanner input = new Scanner(System.in);
+	//System.out.println("Enter Account number: ");
+	//int acc = input.nextInt();
+	showBalance(account);
+	
+	}
+	private static void deposit(Account account) {
+		
+	}
+	
+	private static void showBalance(Account account) {
+		if(account.accnum == 16001) {
+			System.out.println("This account belongs to ::"+account.name+"\n"+"whose balance is ::"+account.balance);
+		}
+	}
+	
+	private static void withdraw(Account account) {
+	
+	}
+}

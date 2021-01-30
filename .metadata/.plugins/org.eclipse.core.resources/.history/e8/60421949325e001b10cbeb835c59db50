@@ -1,0 +1,37 @@
+package Collection;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class BankFlowList {
+	public static void main(String[] args) {
+		
+	
+	BankEmployee be1 = new BankEmployee(101,"Arjun",90890);
+	BankEmployee be2 = new BankEmployee(102, "Mafia", 90008);
+	
+	List<BankEmployee> emp = new LinkedList<BankEmployee>();
+	emp.add(be1);
+	emp.add(be2);
+	emp.add(be1);
+	
+	
+	for(BankEmployee be: emp) {
+		//System.out.println("-> "+be);
+		System.out.println("Emp id: "+be.id+"\n Emp Name: "+be.name+"\n Emp Salary: "+be.sal);
+		try {
+		if (be.name.equalsIgnoreCase("Arj")) {
+			System.out.println("You have found the right person");
+		}
+		else {
+			
+			System.out.println("You entered incorrect data");
+		}
+		}
+		catch (Exception e) {
+			System.out.println("error is : "+e.getMessage());
+		}
+		
+	}
+	}
+}

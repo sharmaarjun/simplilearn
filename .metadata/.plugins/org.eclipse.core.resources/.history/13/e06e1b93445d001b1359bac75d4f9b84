@@ -1,0 +1,32 @@
+package exceptionhandling;
+
+import java.util.Scanner;
+
+
+public class multiple {
+	final static int response = 1000;
+	static float total;
+	
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the amount: ");
+		try {
+		int amount = Integer.parseInt(input.next());
+		total = response/amount;
+		}
+		catch (Exception e) {
+			System.out.println("Catch error msg:"+ e.getMessage());
+		}
+		
+		
+	}
+	public static void fun(int amount) throws Exception {
+		if (amount > 0) {
+			System.out.println("It's a valid number. Result is "+total);
+		}
+		else {
+			throw new Exception("This is not excepted at all."); 
+		}
+	}
+
+}
