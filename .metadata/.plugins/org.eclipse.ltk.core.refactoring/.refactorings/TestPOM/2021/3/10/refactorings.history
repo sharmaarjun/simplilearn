@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LoginClass.java&apos; to &apos;TestPOM/src/test/java/com.pom&apos;&#x0D;&#x0A;- Original project: &apos;TestPOM&apos;&#x0D;&#x0A;- Destination element: &apos;TestPOM/src/test/java/com.pom&apos;&#x0D;&#x0A;- Original element: &apos;com.pom.LoginClass.java&apos;" description="Copy compilation unit" destination="/src\/test\/java&lt;com.pom" element1="/src\/test\/java&lt;com.pom{LoginClass.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1615051246455" units="1" version="1.0"/>
+</session>

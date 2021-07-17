@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;GridTest&apos; to &apos;GridTestMaven&apos;" description="Rename resource &apos;GridTest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/GridTest" name="GridTestMaven" stamp="1615744926558" updateReferences="true"/>
+</session>

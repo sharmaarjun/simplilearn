@@ -1,0 +1,43 @@
+package com.appium;
+
+import static org.junit.Assert.*;
+
+import java.net.URL;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+
+public class Calculator {
+	
+	AndroidDriver<MobileElement> driver;
+
+	@Before
+	public void setUp() throws Exception {
+		URL URL = new URL("http://127.0.0.1:4723/wd/hub");
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setCapability("platformName", "Android");
+		cap.setCapability("platformVersion", "10");
+		cap.setCapability("appPackage" , "com.google.android.calculator");
+		cap.setCapability("appActivity" , "com.android.calculator2.Calculator");
+
+		driver = new AndroidDriver<MobileElement>(URL, cap);
+//		driver.manage().timeouts().implicitlyWait(1000)
+		
+
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		System.out.println("Open calculator app");
+	}
+
+}

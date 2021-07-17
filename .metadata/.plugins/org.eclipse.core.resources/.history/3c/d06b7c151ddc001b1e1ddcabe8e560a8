@@ -1,0 +1,23 @@
+package dockerTest;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class docTest {
+
+	public static void main(String[] args) throws MalformedURLException, InterruptedException {
+		
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+		capabilities.setCapability("browserName", "chrome");
+		capabilities.setCapability("platform", "WINDOWS");
+		
+		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/"),capabilities);
+		Thread.sleep(3000);
+		
+	}
+
+}

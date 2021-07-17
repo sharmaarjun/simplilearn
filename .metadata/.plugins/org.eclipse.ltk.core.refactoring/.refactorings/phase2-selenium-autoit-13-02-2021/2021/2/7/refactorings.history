@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;phase2-selenium-autoit-13-02-2021/Static/NewFile.html&apos; to &apos;index.html&apos;" description="Rename resource &apos;NewFile.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Static/NewFile.html" name="index.html" stamp="1613234393092" updateReferences="true"/>
+</session>

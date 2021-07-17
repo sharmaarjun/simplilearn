@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;RunnerTest.java&apos; to &apos;RestAssured/src/main/java/com.Phase3&apos;&#x0D;&#x0A;- Original project: &apos;Phase3-rest-assured&apos;&#x0D;&#x0A;- Destination element: &apos;RestAssured/src/main/java/com.Phase3&apos;&#x0D;&#x0A;- Original element: &apos;com.restassured.RunnerTest.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=RestAssured/src\/main\/java&lt;com.Phase3" element1="/src\/main\/java&lt;com.restassured{RunnerTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1621181048577" units="1" version="1.0"/>
+</session>

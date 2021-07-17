@@ -13,7 +13,7 @@ public class createconn {
 	public static void main(String[] args) throws SQLException {
 		Connection conn = null;
 		Statement stm = null;
-		//Mysql@127.0.0.1:3306
+
 		String url = "jdbc:mysql://localhost:3306/emp";
 		String username = "root";
 		String password = "root";

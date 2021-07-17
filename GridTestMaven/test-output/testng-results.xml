@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-20T20:50:16 IST" name="Default suite" finished-at="2021-03-20T20:50:23 IST" duration-ms="6866">
+    <groups>
+    </groups>
+    <test started-at="2021-03-20T20:50:16 IST" name="Default test" finished-at="2021-03-20T20:50:23 IST" duration-ms="6866">
+      <class name="com.gridmaven.test.GridTestMaven">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.gridmaven.test.GridTestMaven@3c9d0b9d]" started-at="2021-03-20T20:50:16 IST" name="setUp" finished-at="2021-03-20T20:50:20 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sampleTest()[pri:0, instance:com.gridmaven.test.GridTestMaven@3c9d0b9d]" started-at="2021-03-20T20:50:20 IST" name="sampleTest" finished-at="2021-03-20T20:50:22 IST" duration-ms="2598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.gridmaven.test.GridTestMaven@3c9d0b9d]" started-at="2021-03-20T20:50:23 IST" name="afterTest" finished-at="2021-03-20T20:50:23 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.gridmaven.test.GridTestMaven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
